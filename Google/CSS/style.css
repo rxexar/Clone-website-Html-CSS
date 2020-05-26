@@ -17,7 +17,7 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
-
+/* ---------------header------------------- */
 header {
   width: 100%;
   height: 60px;
@@ -46,10 +46,92 @@ nav .nav_right_section .menu_icon {
   background-size: contain;
   width: 20px;
   height: 20px;
+  cursor: pointer;
 }
 nav .nav_right_section img {
   border-radius: 50%;
   margin-left: 15px;
   width: 32px;
   height: 32px;
+}
+
+/* ----------------------main--------------- */
+
+main {
+  /* margin-top: 150px; */
+  text-align: center;
+}
+main .main_logo {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+main .main_logo img {
+  padding-top: 109px;
+  width: 272px;
+}
+main .main_input {
+  width: 587px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+main .main_input_container {
+  width: 582px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main_input input {
+  width: 500px;
+  height: 35px;
+  border: none;
+  outline: none; /* Nos sirve para quitar el borde generado cuando damos click a un input */
+}
+main .main_input_container:hover {
+  /*Efecto hover es la pasar el mouse encima del objeto */
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+main .main_input .search_icon {
+  background-image: url(/Images/search.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+  padding-right: 10px;
+}
+main .main_input .micro_icon {
+  background-image: url(/Images/asistente_de_voz.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+main .main_buttons {
+  width: 530px;
+  margin: 0 auto;
+}
+main .main_buttons div {
+  display: inline-block;
+}
+main .main_buttons button {
+  height: 36px;
+  background-color: #f2f2f2;
+  border: 0;
+  font-size: 14px;
+  color: #5f6368;
+  border-radius: 5px;
+  padding: 0 15px;
+  margin-right: 15px;
+}
+main .main_buttons button:hover {
+  border: 1px solid #c6c6c6;
+  color: #222;
+  cursor: pointer;
 }
